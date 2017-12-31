@@ -11,7 +11,7 @@ namespace TaiwaneseTrafficLights
 	{
 
 		private static readonly TaiwaneseTrafficLightsConfiguration config;
-        private static readonly PropInfo Type2Main, Type2Ped, Type3LMain, Type3LPed, TypeTPMain, TypeTPPed, Type3SMain, Type3SPed;
+                private static readonly PropInfo Type2Main, Type2Ped, Type3LMain, Type3LPed, TypeTPMain, TypeTPPed, Type3SMain, Type3SPed;
 		private enum style { none, type2, type3_s, type3_l, type_tp, type2_awl, type3_s_awl, type3_l_awl, type_tp_awl }
 
 		static TWTL()
@@ -199,23 +199,23 @@ namespace TaiwaneseTrafficLights
                                 break;
                                 
                             case "Traffic Light 01":
-							case "Traffic Light European 01":							
-								switch(style)
-								{
-									case style.none:
-										laneProp.m_finalProp = null;
-										laneProp.m_prop = null;
-										break;
+				case "Traffic Light European 01":							
+				switch(style)
+				{
+				    case style.none:
+				        laneProp.m_finalProp = null;
+				  	laneProp.m_prop = null;
+				    break;
 
-									case style.type2:
-										laneProp.m_finalProp = Type2Ped;
-										laneProp.m_prop = Type2Ped;
-										break;
+				    case style.type2:
+					laneProp.m_finalProp = Type2Ped;
+					laneProp.m_prop = Type2Ped;
+				    break;
 
-									case style.type3_l:
-										laneProp.m_finalProp = Type3LPed;
-										laneProp.m_prop = Type3LPed;
-										break;
+				    case style.type3_l:
+					laneProp.m_finalProp = Type3LPed;
+					laneProp.m_prop = Type3LPed;
+				    break;
 
                                     case style.type3_s:
                                         laneProp.m_finalProp = Type3SPed;
@@ -248,10 +248,10 @@ namespace TaiwaneseTrafficLights
                                         break;
 
                                 }
-								break;
+				break;
 
-							case "Traffic Light 01 Mirror":
-							case "Traffic Light European 01 Mirror":
+			case "Traffic Light 01 Mirror":
+			case "Traffic Light European 01 Mirror":
                                 switch (style)
                                 {
                                     case style.none:
