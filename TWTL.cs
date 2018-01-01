@@ -16,7 +16,7 @@ namespace TaiwaneseTrafficLights
 
 		static TWTL()
 		{
-            Type2Main  = PrefabCollection<PropInfo>.FindLoaded("1233091415.TWTL_TYPE2_Main_Data");
+            Type2Main  = PrefabCollection<PropInfo>.FindLoaded("1251396095.TWTL_TYPE2_Main_Data");
 
             if (Type2Main == null)
             {
@@ -25,7 +25,7 @@ namespace TaiwaneseTrafficLights
             }
 
 
-            Type2Ped   = PrefabCollection<PropInfo>.FindLoaded("1233091415.TWTL_TYPE2_Ped_Data");
+            Type2Ped   = PrefabCollection<PropInfo>.FindLoaded("1251396095.TWTL_TYPE2_Ped_Data");
 
             if (Type2Ped == null)
             {
@@ -33,7 +33,7 @@ namespace TaiwaneseTrafficLights
                 return;
             }
 
-            Type3LMain  = PrefabCollection<PropInfo>.FindLoaded("1233091415.TWTL_TYPE3_Main_Data");
+            Type3LMain  = PrefabCollection<PropInfo>.FindLoaded("1251396095.TWTL_TYPE3_Main_Data");
 
             if (Type3LMain == null)
             {
@@ -42,7 +42,7 @@ namespace TaiwaneseTrafficLights
             }
 
 
-            Type3LPed   = PrefabCollection<PropInfo>.FindLoaded("1233091415.TWTL_TYPE3_Ped_Data");
+            Type3LPed   = PrefabCollection<PropInfo>.FindLoaded("1251396095.TWTL_TYPE3_Ped_Data");
 
             if (Type3LPed == null)
             {
@@ -51,7 +51,7 @@ namespace TaiwaneseTrafficLights
             }
 
 
-            Type3SMain = PrefabCollection<PropInfo>.FindLoaded("1233091415.TWTL_TYPE3_Sub_Data");
+            Type3SMain = PrefabCollection<PropInfo>.FindLoaded("1251396095.TWTL_TYPE3_Sub_Data");
 
             if (Type3SMain == null)
             {
@@ -59,7 +59,7 @@ namespace TaiwaneseTrafficLights
                 return;
             }
 
-            Type3SPed = PrefabCollection<PropInfo>.FindLoaded("1233091415.TWTL_TYPE3_Ped_Data");
+            Type3SPed = PrefabCollection<PropInfo>.FindLoaded("1251396095.TWTL_TYPE3_Ped_Data");
 
             if (Type3SPed == null)
             {
@@ -67,7 +67,7 @@ namespace TaiwaneseTrafficLights
                 return;
             }
 
-            TypeTPMain = PrefabCollection<PropInfo>.FindLoaded("1233091415.TWTL_TP_Main_Data");
+            TypeTPMain = PrefabCollection<PropInfo>.FindLoaded("1251396095.TWTL_TP_Main_Data");
 
             if (TypeTPMain == null)
             {
@@ -75,7 +75,7 @@ namespace TaiwaneseTrafficLights
                 return;
             }
 
-            TypeTPPed = PrefabCollection<PropInfo>.FindLoaded("1233091415.TWTL_TP_Ped_Data");
+            TypeTPPed = PrefabCollection<PropInfo>.FindLoaded("1251396095.TWTL_TP_Ped_Data");
 
             if (TypeTPPed == null)
             {
