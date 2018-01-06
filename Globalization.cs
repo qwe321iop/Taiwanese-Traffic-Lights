@@ -19,14 +19,14 @@ namespace TaiwaneseTrafficLights {
 
 			HeaderText,
 
-            type2,
+                        type2,
 			type3_l,
-            type3_s,
-            type_tp,
-            type2_awl,
-            type3_l_awl,
-            type3_s_awl,
-            type_tp_awl,
+                        type3_s,
+                        type_tp,
+                        type2_awl,
+                        type3_l_awl,
+                        type3_s_awl,
+                        type_tp_awl,
 
 			GlobalText,
 
@@ -37,8 +37,8 @@ namespace TaiwaneseTrafficLights {
 			LargeRoadsText,
 			WideRoadsText,
 			HighwaysText,
-            AvenueLargeWithGrassText,
-            PedestrianRoadsText,
+                        AvenueLargeWithGrassText,
+                        PedestrianRoadsText,
 			/*BusText,*/
 			MonorailText,
 			GrassText,
@@ -93,9 +93,9 @@ namespace TaiwaneseTrafficLights {
 
         private void initen( Dictionary<StringKeys, string> dic ) {
             dic.Add( StringKeys.HeaderText, "Taiwanese Traffic Lights Options - Changes will apply after reload savedata.");
-			dic.Add( StringKeys.OptionStyleText, "Style");
-			dic.Add( StringKeys.type2, "Suburbs Style");
-			dic.Add( StringKeys.type3_l, "Downtown Style(Long)");
+	    dic.Add( StringKeys.OptionStyleText, "Style");
+	    dic.Add( StringKeys.type2, "Suburbs Style");
+	    dic.Add( StringKeys.type3_l, "Downtown Style(Long)");
             dic.Add( StringKeys.type3_s, "Downtown Style(Short)");
             dic.Add( StringKeys.type_tp, "Taipei Special Style");
             dic.Add(StringKeys.type2_awl, "(Avenue Large With Grass ONLY)Suburbs Style");
@@ -103,22 +103,22 @@ namespace TaiwaneseTrafficLights {
             dic.Add(StringKeys.type3_s_awl, "(Avenue Large With Grass ONLY)Downtown Style(Short)");
             dic.Add(StringKeys.type_tp_awl, "(Avenue Large With Grass ONLY)Taipei Special Style");
             dic.Add( StringKeys.GlobalText, "Global(It applies to new roads)");
-			dic.Add( StringKeys.TinyRoadsText, "Tiny Roads");
-			dic.Add( StringKeys.SmallRoadsText, "Small Roads");
-			dic.Add( StringKeys.SmallHeavyRoadsText, "Small Heavy Roads");
-			dic.Add( StringKeys.MediumRoadsText, "Medium Roads");
+	    dic.Add( StringKeys.TinyRoadsText, "Tiny Roads");
+	    dic.Add( StringKeys.SmallRoadsText, "Small Roads");
+	    dic.Add( StringKeys.SmallHeavyRoadsText, "Small Heavy Roads");
+            dic.Add( StringKeys.MediumRoadsText, "Medium Roads");
             dic.Add(StringKeys.AvenueLargeWithGrassText, "Avenue Large With Grass (No Buslines)");
             dic.Add( StringKeys.LargeRoadsText, "Large Roads");
-			dic.Add( StringKeys.WideRoadsText, "Wide Roads");
-			dic.Add( StringKeys.HighwaysText, "Highways");
-			dic.Add( StringKeys.PedestrianRoadsText, "Pedestrian Roads");
-			dic.Add( StringKeys.OptionEnableText, "Enable");
-			dic.Add( StringKeys.OptionPedRoadsText, "Hide signals on Pedestrian Roads");
-			dic.Add( StringKeys.OptionPromenadeText, "Hide signals on Promenade");
-			/*dic.Add( StringKeys.BusText, "[Beta]Road with Bus Lanes(except some roads)");*/
-			dic.Add( StringKeys.MonorailText, "[Beta]Road with Monorail Track");
-			dic.Add( StringKeys.GrassText, "[Beta]Road with Grass(except for Medium Roads with median)");
-			dic.Add( StringKeys.TreesText, "[Beta]Road with Trees(except for Medium Roads with median)");
+	    dic.Add( StringKeys.WideRoadsText, "Wide Roads");
+	    dic.Add( StringKeys.HighwaysText, "Highways");
+	    dic.Add( StringKeys.PedestrianRoadsText, "Pedestrian Roads");
+	    dic.Add( StringKeys.OptionEnableText, "Enable");
+	    dic.Add( StringKeys.OptionPedRoadsText, "Hide signals on Pedestrian Roads");
+	    dic.Add( StringKeys.OptionPromenadeText, "Hide signals on Promenade");
+	  /*dic.Add( StringKeys.BusText, "[Beta]Road with Bus Lanes(except some roads)");*/
+	    dic.Add( StringKeys.MonorailText, "[Beta]Road with Monorail Track");
+            dic.Add( StringKeys.GrassText, "[Beta]Road with Grass(except for Medium Roads with median)");
+	    dic.Add( StringKeys.TreesText, "[Beta]Road with Trees(except for Medium Roads with median)");
 		}
 
         internal string GetString(StringKeys key)
