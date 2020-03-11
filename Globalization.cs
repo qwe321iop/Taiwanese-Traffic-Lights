@@ -16,20 +16,14 @@ namespace TaiwaneseTrafficLights {
 
 
         internal enum StringKeys {
-
 			HeaderText,
-
+			type1,
                         type2,
 			type3_l,
                         type3_s,
                         type_tp,
-                        type2_awl,
-                        type3_l_awl,
-                        type3_s_awl,
-                        type_tp_awl,
-
+                        type_ks,
 			GlobalText,
-
 			TinyRoadsText,
 			SmallRoadsText,
 			SmallHeavyRoadsText,
@@ -65,18 +59,15 @@ namespace TaiwaneseTrafficLights {
 			dic.Add(StringKeys.OptionStyleText, "風格");
 			dic.Add(StringKeys.type2, "郊區型");
 			dic.Add(StringKeys.type3_l, "市區型(長臂)");
-            dic.Add(StringKeys.type3_s, "市區型(短臂)");
-            dic.Add(StringKeys.type_tp, "台北特別款");
-            dic.Add(StringKeys.type2_awl, "(帶草坪的大街專用)郊區型");
-            dic.Add(StringKeys.type3_l_awl, "(帶草坪的大街專用)市區型(長臂)");
-            dic.Add(StringKeys.type3_s_awl, "(帶草坪的大街專用)市區型(短臂)");
-            dic.Add(StringKeys.type_tp_awl, "(帶草坪的大街專用)台北特別款");
-            dic.Add(StringKeys.GlobalText, "全球（適用於新的道路）");
+        	        dic.Add(StringKeys.type3_s, "市區型(短臂)");
+       		        dic.Add(StringKeys.type_tp, "台北共桿號誌");
+			dic.Add(StringKeys.type_ks, "高雄共桿號誌");
+     	   	        dic.Add(StringKeys.GlobalText, "全球（適用於新的道路）");
 			dic.Add(StringKeys.TinyRoadsText, "單線道路");
 			dic.Add(StringKeys.SmallRoadsText, "小型道路");
 			dic.Add(StringKeys.SmallHeavyRoadsText, "承載量較大之小型道路");
 			dic.Add(StringKeys.MediumRoadsText, "中型道路");
-            dic.Add(StringKeys.AvenueLargeWithGrassText, "帶草坪的大街(無公車道)");
+         	        dic.Add(StringKeys.AvenueLargeWithGrassText, "帶草坪的大街(無公車道)");
 			dic.Add(StringKeys.LargeRoadsText, "大型道路");
 			dic.Add(StringKeys.WideRoadsText, "Wide Roads");
 			dic.Add(StringKeys.HighwaysText, "高速公路");
